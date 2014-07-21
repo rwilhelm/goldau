@@ -1,0 +1,21 @@
+{
+  "name": "goldau",
+  "version": "0.1.0",
+  "homepage": "https://github.com/rwilhelm/Goldau",
+  "authors": [
+    "René Wilhelm <rene.wilhelm@gmail.com>"
+  ],
+  "description": "Website der besten Zahnarztpraxis in Goldau",
+  "main": "public/index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purecss": "~0.5.0"
+  }
+}

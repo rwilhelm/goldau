@@ -1,0 +1,135 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+h1,
+h2,
+h3 {
+  letter-spacing: normal;
+  font-weight: 400; }
+
+.banner {
+  background: transparent url("../img/team/team-big.jpg") 0 0 no-repeat fixed;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/img/team/team-big.jpg', sizingMethod='scale');
+  height: 720px; }
+
+.splash-container {
+  width: 100%;
+  background: transparent url("../img/photos/20130519-41-1440-50.png") 0 0 no-repeat fixed;
+  background-size: cover; }
+
+.splash-head {
+  color: #333;
+  border: 3px solid #333;
+  background-color: rgba(255, 255, 255, 0.75); }
+
+.splash-subhead {
+  color: #333;
+  font-weight: 400; }
+
+.map {
+  background: transparent url("../img/maps/map-wide-t65.png");
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/maps/map-wide-t65.png', sizingMethod='scale');
+  height: 720px; }
+
+.pure-menu {
+  padding: 20px; }
+  .pure-menu li a:hover {
+    background: none;
+    color: #ffcc33; }
+
+/*
+    pull menu items to the right
+    https://github.com/yui/pure/issues/56
+ */
+.pure-menu.pure-menu-pull-right {
+  display: table;
+  width: 100%; }
+
+.pure-menu.pure-menu-pull-right .pure-menu-heading,
+.pure-menu.pure-menu-pull-right > ul {
+  display: table-cell;
+  vertical-align: middle; }
+
+.pure-menu.pure-menu-pull-right > ul {
+  text-align: right; }
+
+.pure-menu-rtl {
+  direction: rtl; }
+
+.pure-menu-rtl.pure-menu-pull-right > ul {
+  text-align: left; }
+
+.content-head {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: 0.1em;
+  margin: 2.8em 0;
+  font-size: 2em; }
+
+.content-head-ribbon {
+  font-size: 1.6em;
+  color: white;
+  margin: 1.4em 0; }
+
+.ribbon {
+  background: #333;
+  color: #ccc;
+  font-size: 1.1em; }
+
+.content {
+  margin-bottom: 2.8em; }
+
+.pricing-table {
+  border: none;
+  margin: 0 0.5em;
+  padding: 0; }
+
+.pricing-table-header {
+  background: #111;
+  color: #fff; }
+
+.pricing-table-fuchs .pricing-table-header {
+  background: #728fde;
+  padding-bottom: 0;
+  margin-bottom: 0; }
+
+.pricing-table-wilhelm .pricing-table-header {
+  background: #2a8d82; }
+
+.pricing-table-price span {
+  display: block;
+  text-transform: none;
+  font-size: 0.3em;
+  padding-bottom: 1.5em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  *color: #fff; }
+
+.pricing-table-text {
+  padding: 2em 2em 2em 2em; }
+
+.assistant-text {
+  max-width: 70%;
+  margin: auto; }
+
+.clock {
+  font-size: 2em;
+  padding: 0.2em; }
+
+.is-right {
+  text-align: right; }
+
+.footer {
+  background: transparent url("../img/common/footer-bg.png") repeat-x;
+  background-size: 100% auto;
+  color: #666;
+  text-align: center; }
+
+div[id]:before {
+  content: "";
+  display: block;
+  height: 102px;
+  margin: -102px 0 0; }
+
+/*# sourceMappingURL=style.css.map */
